@@ -32,8 +32,9 @@ int main(int argc,char** argv){
         cin>>op>>s;
         if(s.size()>L)quitf(_wa,"Wrong Answer");
         if(op=='?'){
-            cout<<calc(s,answer)<<endl;
             total++;
+            if(total>Q)quitf(_wa,"Wrong Answer");
+            cout<<calc(s,answer)<<endl;
         }
         else{
             if(s==answer)quitf(_ok,"Correct (%d queries)",total);
