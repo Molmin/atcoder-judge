@@ -51,7 +51,7 @@ int main(int argc,char** argv){
     for(int i=1;i<=n;i++)v[i]=inf.readUnsignedLong();
     int out=solve(ouf),answer=solve(ans);
     if(out==answer)quitf(_ok,"Correct");
-    else if(answer)quitf(_wa,"Wrong Answer6");
+    else if(answer)quitf(_wa,"Wrong Answer");
     else quitf(_fail,"Failed");
     return 0;
 }
