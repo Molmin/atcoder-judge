@@ -4,7 +4,8 @@
  * @date: 2024-01-04
  */
 
-// This checker cannot work, maybe there is something wrong in the testdata provides by AtCoder
+// NOTE: There is an issue with the testdata output file provided by Official AtCoder,
+//       which has been fixed on the HydroOJ official website.
 
 const fs = require('fs')
 const input = fs.readFileSync('in').toString().trim()
