@@ -7,5 +7,5 @@ checker: checker.cc
 
 ```yaml
 type: interactive
-interactor: interator.cc
+interactor: interactor.cc
 ```
