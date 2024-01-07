@@ -1,7 +1,7 @@
 /*
  * @type: checker
  * @author: Milmon <milmon@qq.com>
- * @date: 2024-01-04
+ * @date: 2024-01-07
  */
 
 // NOTE: There is an issue with the testdata output file provided by Official AtCoder,
