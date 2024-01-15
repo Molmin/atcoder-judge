@@ -51,6 +51,7 @@ int main(int argc,char** argv){
         c[i]=inf.readInt();
     }
     __int128 out=solve(ouf),answer=0;
+    // NOTE: AtCoder provides the distance from point 1 to each point in the answer file
     for(int i=1;i<=n;i++)answer+=ans.readLong();
     if(out==answer)quitf(_ok,"Correct");
     else if(out>answer)quitf(_wa,"Wrong Answer");

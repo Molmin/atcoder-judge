@@ -17,6 +17,7 @@ int m,a[111];
 
 int main(int argc,char** argv){
     registerInteraction(argc,argv);
+    // NOTE: AtCoder provides correct n in the first line of the input file
     int n=inf.readInt();
     cin>>m;
     if(m<1||m>110)wa();
