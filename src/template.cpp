@@ -11,6 +11,7 @@ using namespace std;
 bool solve(InStream& stream){
     string res=stream.readToken();
     if(res=="No")return false;
+    else if(res!="Yes")quitf(_wa,"Wrong Answer");
     return true;
 }
 

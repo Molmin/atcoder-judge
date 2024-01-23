@@ -16,7 +16,7 @@ void check(long long x,long long y,long long val){
         quitf(_wa,"Wrong Answer");
 }
 
-bool solve(InStream &stream){
+bool solve(InStream& stream){
     set<long long> S;
     for(int i=1;i<=n;i++)
         for(int j=1;j<=n;j++){

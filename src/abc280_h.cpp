@@ -39,7 +39,7 @@ struct HashNode{
 };
 vector<HashNode> h[100001];
 
-HashNode solve(InStream &stream){
+HashNode solve(InStream& stream){
     int id,l,r;
     id=stream.readInt(1,n);
     l=stream.readInt(1,s[id].size());
